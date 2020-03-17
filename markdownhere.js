@@ -1,6 +1,6 @@
 (function() {
     // initialize showdown.js
-    var converter = new Showdown.converter();
+    var converter = new showdown.Converter();
     
     // find all elements with class x-mdhere and convert their markdown content into HTML
     var markdown_els = document.getElementsByClassName('x-mdhere');
